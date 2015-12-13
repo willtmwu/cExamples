@@ -1,6 +1,8 @@
 Changed Files in the kernel
 
-The majority of the code and work is in the file sys/kern/zones.c other changes are to simply support the implementation
+The majority of the code and work is in the file sys/kern/zones.c, other changes are to simply support the implementation.
+
+For this project, processes must be isolated within 'zones'. Therefore, signals cannot cross zones. Furthermore, zones should not know what processes exist in other zones.
 
 bin/ps/extern.h
 bin/ps/keyword.c
