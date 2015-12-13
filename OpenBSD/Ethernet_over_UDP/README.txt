@@ -1,4 +1,4 @@
-Changed Files
+Changed Files in the kernel
 
 sbin/ifconfig/ifconfig.c
 sys/conf/GENERIC
