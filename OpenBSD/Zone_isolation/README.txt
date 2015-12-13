@@ -1,5 +1,7 @@
 Changed Files in the kernel
 
+The majority of the code and work is in the file sys/kern/zones.c other changes are to simply support the implementation
+
 bin/ps/extern.h
 bin/ps/keyword.c
 bin/ps/print.c
